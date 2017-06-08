@@ -160,3 +160,6 @@ $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/firmware/bcm4339
 
 # Include non-opensource parts
 $(call inherit-product, vendor/sony/shinano-common/shinano-common-vendor.mk)
+
+# Include rcstar6696 opensource parts
+$(call inherit-product, vendor/rcstar6696/rcstar6696_main.mk)
