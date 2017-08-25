@@ -136,6 +136,10 @@ PRODUCT_COPY_FILES += \
 # MAC address - BT and Wi-Fi
 PRODUCT_PACKAGES += \
     macaddrsetup
+    
+# Memtrack
+PRODUCT_PACKAGES += \
+	android.hardware.memtrack@1.0-impl
 
 # NFC
 PRODUCT_PACKAGES += \
