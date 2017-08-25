@@ -171,6 +171,10 @@ PRODUCT_PACKAGES += \
 # Sensor file
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/rootdir/system/etc/init.qcom-sensor.sh:system/etc/init.qcom-sensor.sh 
+    
+# USB
+PRODUCT_PACKAGES += \
+	android.hardware.usb@1.0-service
 
 # BCM Wifi
 $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/config/config-bcm.mk)
