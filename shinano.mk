@@ -70,6 +70,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/ad_calib.cfg:system/etc/ad_calib.cfg
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+   android.hardware.bluetooth@1.0-impl
+
 # RIL
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/netmgr_config.xml:system/etc/data/netmgr_config.xml \
