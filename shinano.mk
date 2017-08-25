@@ -149,6 +149,10 @@ PRODUCT_COPY_FILES += \
 # Off mode charger
 PRODUCT_PACKAGES += \
     charger_res_images
+    
+# Sensors
+PRODUCT_PACKAGES += \
+    android.hardware.sensors@1.0-impl
 
 # Sensor file
 PRODUCT_COPY_FILES += \
