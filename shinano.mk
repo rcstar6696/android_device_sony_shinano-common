@@ -168,6 +168,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/rootdir/system/etc/init.qcom-sensor.sh:system/etc/init.qcom-sensor.sh 
     
+# Thermal HAL
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@1.0-impl
+    
 # USB
 PRODUCT_PACKAGES += \
 	android.hardware.usb@1.0-service
