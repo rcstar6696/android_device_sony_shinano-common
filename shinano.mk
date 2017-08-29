@@ -114,7 +114,8 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/gps/sap.conf:system/etc/sap.conf
 
 PRODUCT_PACKAGES += \
-    gps.msm8974
+    gps.msm8974 \
+    android.hardware.gnss@1.0-impl
 
 # IPC Security Config
 PRODUCT_COPY_FILES += \
