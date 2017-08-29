@@ -148,7 +148,7 @@ PRODUCT_PACKAGES += \
 	android.hardware.nfc@1.0-impl \
     NfcNci \
     com.android.nfc_extras \
-    nfc_nci.msm8974
+    nfc_nci.pn54x.default
 
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/rootdir/system/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
